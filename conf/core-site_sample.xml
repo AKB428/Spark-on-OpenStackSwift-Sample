@@ -1,0 +1,36 @@
+<configuration>
+    <property>
+        <name>fs.swift.impl</name>
+        <value>org.apache.hadoop.fs.swift.snative.SwiftNativeFileSystem</value>
+    </property>
+    <property>
+        <name>fs.swift.service.Spark_on_OpenStackSwift.auth.url</name>
+        <value>https://ident-r1nd1001.cnode.jp/v2.0/tokens</value>
+    </property>
+    <property>
+        <name>fs.swift.service.Spark_on_OpenStackSwift.auth.endpoint.prefix</name>
+        <value>endpoints</value>
+    </property>
+    <name>fs.swift.service.Spark_on_OpenStackSwift.http.port</name>
+    <value>8080</value>
+    <property>
+        <name>fs.swift.service.Spark_on_OpenStackSwift.region</name>
+        <value>RegionOne</value>
+    </property>
+    <property>
+        <name>fs.swift.service.Spark_on_OpenStackSwift.public</name>
+        <value>true</value>
+    </property>
+    <property>
+        <name>fs.swift.service.Spark_on_OpenStackSwift.tenant</name>
+        <value>XXXXXX</value>
+    </property>
+    <property>
+        <name>fs.swift.service.Spark_on_OpenStackSwift.username</name>
+        <value>XXXXXX</value>
+    </property>
+    <property>
+        <name>fs.swift.service.Spark_on_OpenStackSwift.password</name>
+        <value>XXXXXX</value>
+    </property>
+</configuration>
